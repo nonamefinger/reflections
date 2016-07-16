@@ -8,3 +8,10 @@ to keep track of the history of the repo
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging are is just a temporary list of files to be added in the commit, so it is a subset of the working directory. It offers the flexibility to select what to be tracked.
+****staging area is a copy of the most recent commit until changes are added to it.
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+just add the file you want to commit a logical change to the staging area and commit it, do it with each logical change
