@@ -15,3 +15,34 @@ staging are is just a temporary list of files to be added in the commit, so it i
 How can you use the staging area to make sure you have one commit per logical change?
 
 just add the file you want to commit a logical change to the staging area and commit it, do it with each logical change
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+experiements, later can restore or combine
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+It makes it a tree
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+one branch, with the checkout branch remained
+because it merge into 1 from 2 branches
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+auto
+pros: convenient
+cons: may merge into something non-sense, even not compile
+
+manual
+pros: can always make suitable and sensible merge by understanding and discussing the different verisons of codes
+cons: inconvenient
